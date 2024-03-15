@@ -3,7 +3,7 @@ name: learn-github-actions
 #on: [push]
 on: workflow_dispatch
 jobs:
-  check-bats-version:
+  first-job:
     runs-on: ubuntu-latest
     steps:
       - name:  Print greeting
