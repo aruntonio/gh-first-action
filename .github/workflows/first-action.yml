@@ -1,8 +1,8 @@
-name: First-workflow
+name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
-on: workflow_dispatch
+on: [push]
 jobs:
-  first-job:
+  check-bats-version:
     runs-on: ubuntu-latest
     steps:
       - name:  Print greeting
