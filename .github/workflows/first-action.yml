@@ -1,8 +1,8 @@
 name: First Workflow
-#on: workflow_dispatch
-on: [push]
+on: workflow_dispatch
+#on: [push]
 jobs:
-  First-job:
+  first-job:
     runs-on: ubuntu-latest
     steps:
       - name:  Print greeting
