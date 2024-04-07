@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name:  Print greeting
-        run: echo "Hello World - Welcome to Github actions!"
+        run: echo "Hello World Arun - Welcome to Github actions!"
       - name: Print goodbye
-        run: echo "Arun Tonio New Done with First Workflow -Bye!"
+        run: echo "Arun Tonio New Done with First Workflow -Byeeeeeeee!"
